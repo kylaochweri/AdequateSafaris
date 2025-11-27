@@ -1,4 +1,4 @@
-AdequateSafaris - Vacation Price Comparison and Booking Platform
+#AdequateSafaris - Vacation Price Comparison and Booking Platform
 
 AdequateSafaris is a modern web application designed to revolutionize vacation planning by offering an intuitive, transparent, and efficient platform for travelers to compare vacation prices, explore unique experiences, and make seamless bookings.
 
