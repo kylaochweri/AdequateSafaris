@@ -1,6 +1,6 @@
-# SmartTrip - Vacation Price Comparison and Booking Platform
+# AdequateSafaris - Vacation Price Comparison and Booking Platform
 
-SmartTrip is a modern web application designed to revolutionize vacation planning by offering an intuitive, transparent, and efficient platform for travelers to compare vacation prices, explore unique experiences, and make seamless bookings.
+AdequateSafaris is a modern web application designed to revolutionize vacation planning by offering an intuitive, transparent, and efficient platform for travelers to compare vacation prices, explore unique experiences, and make seamless bookings.
 
 ## Features
 
@@ -15,7 +15,7 @@ SmartTrip is a modern web application designed to revolutionize vacation plannin
 ## Project Structure
 
 ```
-smarttrip/
+adequatesafaris/
 ├── index.html          # Main HTML file
 ├── styles/
 │   └── main.css       # Main stylesheet
@@ -28,7 +28,7 @@ smarttrip/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/smarttrip.git
+git clone https://github.com/yourusername/AdequateSafaris.git
 cd smarttrip
 ```
 
@@ -86,5 +86,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Email - [m.musembi@alustudent.com]
+Email - [k.ochweri@alustudent.com]
 Project Link: [https://github.com/michaelmusembi/smarttrip](https://github.com/michaelmusembi/smarttrip) 
