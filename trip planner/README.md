@@ -87,4 +87,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 Email - [k.ochweri@alustudent.com]
-Project Link: [https://github.com/michaelmusembi/smarttrip](https://github.com/michaelmusembi/smarttrip) 
+Project Link: (https://github.com/kylaochweri/AdequateSafaris) 
