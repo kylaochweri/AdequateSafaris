@@ -1,0 +1,9 @@
+Required images for SmartTrip:
+
+1. hero-bg.jpg - A beautiful landscape photo for the hero section background
+2. serengeti.jpg - Serengeti National Park photo
+3. victoria-falls.jpg - Victoria Falls photo
+4. cape-town.jpg - Cape Town photo
+5. zanzibar.jpg - Zanzibar beach photo
+
+Please add appropriate high-quality images to make the website look professional. 

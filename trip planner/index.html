@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTrip - Vacation Price Comparison and Booking Platform</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>SmartTrip</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Destinations</a>
+                <a href="#">Compare Prices</a>
+                <a href="guides.html">Travel Guides</a>
+                <a href="#">About Us</a>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn-login" onclick="window.location.href='login.html'">Login</button>
+                <button class="btn-signup" onclick="window.location.href='signup.html'">Sign Up</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Vacation</h1>
+            <p>Compare prices, explore unique experiences, and book your dream African vacation.</p>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="Where do you want to go?">
+                    <input type="date" placeholder="Check-in">
+                    <input type="date" placeholder="Check-out">
+                    <select>
+                        <option value="">Guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4+ Guests</option>
+                    </select>
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/zanzibar_1.jpg" alt="Zanzibar">
+                </div>
+                <div class="destination-info">
+                    <h3>Zanzibar</h3>
+                    <p>Experience pristine beaches and rich cultural heritage on this tropical paradise.</p>
+                    <div class="destination-meta">
+                        <div class="destination-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="destination-price">$1200</div>
+                    </div>
+                    <button class="btn-book">View Packages</button>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/serengeti_1.jpg" alt="Serengeti">
+                </div>
+                <div class="destination-info">
+                    <h3>Serengeti</h3>
+                    <p>Witness the spectacular wildlife and breathtaking landscapes of this iconic safari destination.</p>
+                    <div class="destination-meta">
+                        <div class="destination-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.9</span>
+                        </div>
+                        <div class="destination-price">$2500</div>
+                    </div>
+                    <button class="btn-book">View Packages</button>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/victoria-falls_1.jpg" alt="Victoria Falls">
+                </div>
+                <div class="destination-info">
+                    <h3>Victoria Falls</h3>
+                    <p>Marvel at one of the world's largest waterfalls, known locally as "The Smoke That Thunders".</p>
+                    <div class="destination-meta">
+                        <div class="destination-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <div class="destination-price">$1800</div>
+                    </div>
+                    <button class="btn-book">View Packages</button>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/cape-town_1.jpg" alt="Cape Town">
+                </div>
+                <div class="destination-info">
+                    <h3>Cape Town</h3>
+                    <p>Explore the stunning coastal city with its iconic Table Mountain and vibrant culture.</p>
+                    <div class="destination-meta">
+                        <div class="destination-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="destination-price">$1600</div>
+                    </div>
+                    <button class="btn-book">View Packages</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose SmartTrip</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-money-bill-wave"></i>
+                <h3>Best Price Guarantee</h3>
+                <p>Compare prices from multiple providers to get the best deals.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-star"></i>
+                <h3>Verified Reviews</h3>
+                <p>Read authentic reviews from real travelers.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Secure Booking</h3>
+                <p>Book with confidence using our secure payment system.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Get assistance anytime, anywhere during your journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Guides Section -->
+    <section class="travel-guides-preview">
+        <h2>Travel Guides & Tips</h2>
+        <div class="guides-preview-container">
+            <div class="guides-preview-grid">
+                <div class="guide-preview-card">
+                    <div class="guide-preview-image">
+                        <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e" alt="Safari in Kenya">
+                    </div>
+                    <div class="guide-preview-content">
+                        <h3><i class="fas fa-globe-africa"></i> Top Destinations</h3>
+                        <p>Discover the most breathtaking places across Africa, from the pristine beaches of Zanzibar to the majestic wildlife of Serengeti.</p>
+                    </div>
+                </div>
+                
+                <div class="guide-preview-card">
+                    <div class="guide-preview-image">
+                        <img src="https://images.unsplash.com/photo-1515041761709-f9fc96e04cd3" alt="Hot Air Balloon Safari">
+                    </div>
+                    <div class="guide-preview-content">
+                        <h3><i class="fas fa-star"></i> Unique Experiences</h3>
+                        <p>Explore extraordinary adventures like hot air balloon safaris, Okavango Delta canoe rides, and swimming with penguins.</p>
+                    </div>
+                </div>
+                
+                <div class="guide-preview-card">
+                    <div class="guide-preview-image">
+                        <img src="https://images.unsplash.com/photo-1580739837233-a8d3356bd1a0" alt="Travel Tips">
+                    </div>
+                    <div class="guide-preview-content">
+                        <h3><i class="fas fa-coins"></i> Travel Tips</h3>
+                        <p>Get expert advice on budget travel, visa requirements, safety tips, and how to make the most of your African adventure.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="guides-cta">
+                <a href="guides.html" class="btn-view-guides">Explore All Travel Guides</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest travel deals and updates.</p>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About SmartTrip</h3>
+                <p>Your trusted platform for comparing and booking African vacations. We help you find the best deals for your dream safari adventure.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="guides.html">Travel Guides</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>123 Safari Road, Nairobi, Kenya</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@smarttrip.com</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+1 234 567 890</span>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest travel deals and updates.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 SmartTrip. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" class="signup-link">Sign up</a></p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

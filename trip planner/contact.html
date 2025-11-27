@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SmartTrip</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>SmartTrip</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="guides.html">Travel Guides</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn-login">Login</button>
+                <button class="btn-signup">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="about-hero">
+        <div class="about-hero-content">
+            <h1>Get In Touch</h1>
+            <p>We're Here to Help Plan Your Perfect African Adventure</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="mission-section">
+        <div class="mission-container">
+            <div class="mission-content">
+                <h2>Contact Us</h2>
+                <p>Have questions about our destinations, need help planning your trip, or want to provide feedback? Fill out the form below and our team will get back to you within 24 hours.</p>
+                
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <div class="input-group">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <div class="input-group">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="email" name="email" placeholder="Your email address" required>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <div class="input-group">
+                                <i class="fas fa-tag"></i>
+                                <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <div class="input-group">
+                                <i class="fas fa-comment-alt"></i>
+                                <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations Section -->
+    <section class="team-section">
+        <h2>Our Offices</h2>
+        <div class="team-grid">
+            <div class="team-member office-card">
+                <div class="member-image">
+                    <img src="https://images.unsplash.com/photo-1611348524140-53c9a25263d6" alt="Nairobi Office">
+                </div>
+                <div class="member-info">
+                    <h3>Nairobi, Kenya</h3>
+                    <p class="member-role">Headquarters</p>
+                    <p class="member-bio">
+                        <i class="fas fa-map-marker-alt"></i> 123 Safari Road, Westlands<br>
+                        <i class="fas fa-phone"></i> +254 123 456 789<br>
+                        <i class="fas fa-envelope"></i> nairobi@smarttrip.com<br>
+                        <i class="fas fa-clock"></i> Mon-Fri: 8:30AM - 5:30PM
+                    </p>
+                </div>
+            </div>
+
+            <div class="team-member office-card">
+                <div class="member-image">
+                    <img src="https://images.unsplash.com/photo-1576485375217-d6a95e34d043" alt="Cape Town Office">
+                </div>
+                <div class="member-info">
+                    <h3>Cape Town, South Africa</h3>
+                    <p class="member-role">Regional Office</p>
+                    <p class="member-bio">
+                        <i class="fas fa-map-marker-alt"></i> 45 Table Mountain Drive<br>
+                        <i class="fas fa-phone"></i> +27 21 555 7890<br>
+                        <i class="fas fa-envelope"></i> capetown@smarttrip.com<br>
+                        <i class="fas fa-clock"></i> Mon-Fri: 9:00AM - 6:00PM
+                    </p>
+                </div>
+            </div>
+
+            <div class="team-member office-card">
+                <div class="member-image">
+                    <img src="https://images.unsplash.com/photo-1612311370838-eeece9f4bb1c" alt="Zanzibar Office">
+                </div>
+                <div class="member-info">
+                    <h3>Zanzibar, Tanzania</h3>
+                    <p class="member-role">Island Office</p>
+                    <p class="member-bio">
+                        <i class="fas fa-map-marker-alt"></i> 78 Stone Town Street<br>
+                        <i class="fas fa-phone"></i> +255 778 123 456<br>
+                        <i class="fas fa-envelope"></i> zanzibar@smarttrip.com<br>
+                        <i class="fas fa-clock"></i> Mon-Fri: 9:00AM - 5:00PM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="achievements-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3><i class="fas fa-question-circle"></i> How do I book a trip through SmartTrip?</h3>
+                    <p>You can book directly through our website by selecting your destination, choosing available packages, and completing the secure checkout process. Alternatively, you can contact our travel advisors for personalized assistance.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3><i class="fas fa-question-circle"></i> What payment methods do you accept?</h3>
+                    <p>We accept all major credit cards (Visa, MasterCard, American Express), PayPal, M-Pesa, and bank transfers. All payments are processed through secure, encrypted channels.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3><i class="fas fa-question-circle"></i> What is your cancellation policy?</h3>
+                    <p>Our standard policy allows free cancellation up to 30 days before your trip. Cancellations between 15-30 days receive a 50% refund, while those within 14 days are non-refundable. Some premium packages may have different terms.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3><i class="fas fa-question-circle"></i> Do you offer travel insurance?</h3>
+                    <p>Yes, we offer comprehensive travel insurance packages that cover medical emergencies, trip cancellations, lost luggage, and more. We strongly recommend purchasing insurance for all international travel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SmartTrip</h3>
+                <p>Your trusted companion for African adventures.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="guides.html">Travel Guides</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Safari Road, Nairobi</p>
+                <p><i class="fas fa-phone"></i> +254 123 456 789</p>
+                <p><i class="fas fa-envelope"></i> info@smarttrip.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe for travel tips and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SmartTrip. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

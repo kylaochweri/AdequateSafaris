@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation - SmartTrip</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/auth.css">
+    <link rel="stylesheet" href="styles/booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">SmartTrip</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="auth-buttons">
+                <button onclick="window.location.href='login.html'" class="btn-login">Login</button>
+                <button onclick="window.location.href='signup.html'" class="btn-signup">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Confirmation Section -->
+    <section class="booking-section">
+        <div class="booking-container">
+            <div class="confirmation-content">
+                <div class="confirmation-header">
+                    <i class="fas fa-check-circle"></i>
+                    <h1>Booking Confirmed!</h1>
+                    <p>Thank you for choosing SmartTrip. Your booking has been successfully confirmed.</p>
+                </div>
+
+                <div class="booking-details">
+                    <h2>Booking Details</h2>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="label">Booking Reference:</span>
+                            <span id="bookingReference" class="value"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Package Name:</span>
+                            <span id="packageName" class="value"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Full Name:</span>
+                            <span id="fullName" class="value"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Email:</span>
+                            <span id="email" class="value"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Phone:</span>
+                            <span id="phone" class="value"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Number of Travelers:</span>
+                            <span id="travelers" class="value"></span>
+                        </div>
+                    </div>
+
+                    <div class="price-summary">
+                        <h3>Price Summary</h3>
+                        <div class="price-breakdown">
+                            <div class="price-item">
+                                <span>Package Price:</span>
+                                <span id="packagePrice"></span>
+                            </div>
+                            <div class="price-item">
+                                <span>Taxes & Fees:</span>
+                                <span id="taxFees"></span>
+                            </div>
+                            <div class="price-item total">
+                                <span>Total Amount:</span>
+                                <span id="totalAmount"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="next-steps">
+                        <h3>Next Steps</h3>
+                        <ul>
+                            <li>Check your email for a detailed confirmation</li>
+                            <li>Review your travel documents</li>
+                            <li>Contact us if you have any questions</li>
+                        </ul>
+                    </div>
+
+                    <div class="confirmation-actions">
+                        <button onclick="window.print()" class="btn-print">
+                            <i class="fas fa-print"></i> Print Confirmation
+                        </button>
+                        <button onclick="window.location.href='index.html'" class="btn-home">
+                            Return to Homepage
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About SmartTrip</h3>
+                <p>Your trusted partner for unforgettable vacation experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@smarttrip.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SmartTrip. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/confirmation.js"></script>
+</body>
+</html> 

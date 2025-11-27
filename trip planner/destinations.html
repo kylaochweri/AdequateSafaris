@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - SmartTrip</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>SmartTrip</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html" class="active">Destinations</a>
+                <a href="guides.html">Travel Guides</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="signup.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Destinations Hero Section -->
+    <section class="about-hero">
+        <div class="about-hero-content">
+            <h1>Explore Africa</h1>
+            <p>Discover the continent's most breathtaking destinations</p>
+        </div>
+    </section>
+
+<!-- Destination Categories -->
+<section class="destination-categories">
+    <div class="category-filters">
+        <button class="filter-btn active" data-filter="all">All Destinations</button>
+        <button class="filter-btn" data-filter="beach">Beach Getaways</button>
+        <button class="filter-btn" data-filter="safari">Safari Adventures</button>
+        <button class="filter-btn" data-filter="city">City Breaks</button>
+        <button class="filter-btn" data-filter="nature">Natural Wonders</button>
+    </div>
+    <div class="category-description">
+        <p>Explore our handpicked selection of Africa's most remarkable destinations, each offering unique experiences and unforgettable memories.</p>
+    </div>
+</section>
+
+<!-- Destinations Grid -->
+<section class="destinations expanded">
+    <div class="destinations-grid">
+        <!-- Beach Getaways -->
+        <div class="destination-card" data-category="beach">
+            <div class="destination-image">
+                <img src="images/zanzibar_1.jpg" alt="Zanzibar Beach">
+            </div>
+            <div class="destination-info">
+                <h3>Zanzibar, Tanzania</h3>
+                <p>Experience pristine beaches, crystal-clear waters, and rich cultural heritage in this tropical paradise. Explore historic Stone Town, spice plantations, and world-class diving spots.</p>
+                <div class="destination-meta">
+                    <div class="destination-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="destination-price">From $899</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Safari Adventures -->
+        <div class="destination-card" data-category="safari">
+            <div class="destination-image">
+                <img src="images/serengeti_1.jpg" alt="Serengeti National Park">
+            </div>
+            <div class="destination-info">
+                <h3>Serengeti National Park</h3>
+                <p>Witness the great migration and abundant wildlife in one of Africa's most iconic safari destinations. Experience luxury lodges, hot air balloon safaris, and expert-guided game drives.</p>
+                <div class="destination-meta">
+                    <div class="destination-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="destination-price">From $1,299</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Natural Wonders -->
+        <div class="destination-card" data-category="nature">
+            <div class="destination-image">
+                <img src="images/victoria-falls_1.jpg" alt="Victoria Falls">
+            </div>
+            <div class="destination-info">
+                <h3>Victoria Falls, Zimbabwe</h3>
+                <p>Marvel at the world's largest waterfall and enjoy thrilling activities. Experience white-water rafting, bungee jumping, and scenic helicopter flights over the falls.</p>
+                <div class="destination-meta">
+                    <div class="destination-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="destination-price">From $799</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- City Breaks -->
+        <div class="destination-card" data-category="city">
+            <div class="destination-image">
+                <img src="images/cape-town_1.jpg" alt="Cape Town">
+            </div>
+            <div class="destination-info">
+                <h3>Cape Town, South Africa</h3>
+                <p>Explore the vibrant culture, stunning landscapes, and rich history of this coastal metropolis. Visit Table Mountain, Robben Island, and the Cape Winelands.</p>
+                <div class="destination-meta">
+                    <div class="destination-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <div class="destination-price">From $999</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Destination Features -->
+<section class="destination-features text-center">
+    <h2>Why Visit These Destinations?</h2>
+    <div class="features-grid">
+        <div class="feature-card">
+            <i class="fas fa-umbrella-beach"></i>
+            <h3>Pristine Beaches</h3>
+            <p>Experience the crystal-clear waters and white sandy beaches of East Africa's coastline.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-paw"></i>
+            <h3>Wildlife Encounters</h3>
+            <p>Witness incredible wildlife in their natural habitat across Africa's renowned national parks.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-water"></i>
+            <h3>Natural Wonders</h3>
+            <p>Explore magnificent waterfalls, craters, and unique geological formations.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-city"></i>
+            <h3>Urban Experiences</h3>
+            <p>Discover vibrant cities blending modern amenities with rich cultural heritage.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Travel Tips -->
+<section class="travel-tips text-center">
+    <h2>Essential Travel Tips</h2>
+    <div class="tips-grid">
+        <div class="tip-card">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Best Time to Visit</h3>
+            <p>Learn about the ideal seasons to visit each destination and plan your perfect trip.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+        <div class="tip-card">
+            <i class="fas fa-passport"></i>
+            <h3>Visa Requirements</h3>
+            <p>Get up-to-date information on visa requirements and travel documentation.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+        <div class="tip-card">
+            <i class="fas fa-plane"></i>
+            <h3>Getting There</h3>
+            <p>Find the best transportation options and travel routes to your chosen destination.</p>
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
