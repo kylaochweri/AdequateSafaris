@@ -29,7 +29,7 @@ adequatesafaris/
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/AdequateSafaris.git
-cd smarttrip
+cd AdequateSafaris
 ```
 
 2. Open the project:
